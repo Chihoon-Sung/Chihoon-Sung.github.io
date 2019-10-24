@@ -24,7 +24,7 @@ description              : "Practice blog"
 url                      : "https://chihoon-sung.github.io/"
 baseurl                  : ""
 repository               : "Chihoon-Sung/sungTutorial" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/Users/sung/Desktop/dog.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
@@ -44,7 +44,7 @@ comments:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
+  allowedFields          :  ['name', 'email', 'url', 'message']
   branch                 : # "master"
   commitMessage          : # "New comment by {fields.name}"
   filename               : # comment-{@timestamp}
@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Sung Chi Hoon"
-  avatar           : "/Users/sung/Desktop/dog.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           :  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I major in **software**"
   location         : "Seoul, Korea"
   email            :
@@ -291,4 +291,4 @@ defaults:
       read_time: true
       comments: # true
       share: true
-      related: truei
+      related: true
